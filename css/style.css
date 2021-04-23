@@ -1,4 +1,104 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   
+}
+
 body {
     background-color: beige;
-    color: gray;
+    color: gray; 
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    border-bottom: 10px double gray;
+    text-align: center;
+}
+
+article{
+    padding: 15px 0px;
+    color:yellowgreen;
+}
+
+#articulo1{
+    background-image: url("../img/violetas1.jpg");
+    background-attachment: fixed;
+}
+
+#articulo2{
+    color:black;
+    background-image: url("../img/balloons.jpg");
+    background-attachment: fixed;
+}    
+
+#articulo3 {
+    color:black;
+    background-image: url("../img/pichichos.jpg");
+    background-attachment: fixed;
+}
+
+a:hover{
+    background-color: red;
+    
+}
+
+
+p{
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 10px;
+    line-height: 150%;
+}
+
+/* article{
+    background-image: url("https://mdn.mozillademos.org/files/12057/starsolid.gif");
+    background-attachment: fixed;
+}
+
+.aside-index{
+
+}*/
+
+.lista{
+    list-style-type: none;
+}
+
+
+#header-style{
+    padding:10 ;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+/*!importan por orden coloca este valor como importante*/
+.aling-right, .aling-right p{
+    text-align: rightright !important;
+}
+
+#italica-titulo{
+    font-family: italic;
+}
+/*!quienessomos*/
+
+.background-article{
+    background-color: indigo;
+    color: black;
+    margin-top: 20 px;
+    padding: 10 px;
+}
+
+.area-article{
+    background-color: pink;
+    padding: 30 px;
+    margin: 20 px;
+    font-family: italic;
 }
